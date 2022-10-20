@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<Inifile>
+
+db.host = http://localhost:8888/mydb
+db.login = kurzinovdo
+"db.password = HVYiSubUXWZWx994
+
+
+    #Авторизация ИНЕТ
+    <login>kurzinovdo</login><pass>HVYiSubUXWZWx994</pass>
+
+
+    #Путь до PostBank (Сетевой диск только)
+    <PostBank>x:\ABS\adm\KFM\import_BIK\</PostBank>
+
+    #Авторизация + Пути ФТП
+    <Ftp1>ftp://bankier.rs.ru/f20/</Ftp1><FtpL1>import</FtpL1><FtpP1>BvgJhn99</FtpP1><FtpS2>rmod.rs.ru</FtpS2><FtpD2>/BNKSEEK/</FtpD2><FtpL2>kolesn</FtpL2><FtpP2>123456qw</FtpP2>
+
+
+    #Путь до BNKSEEK.BANK и BNKSEEK.CL (Сетевой диск только)
+    #Если пустой путь то путь корень\BIK_New\
+    <PathCB></PathCB>
+
+    #Пути для отправки КБ
+    <CB1></CB1>
+    <CB2></CB2>
+
+    #Путь до SPRAV.MFO (Сетевой диск только)
+    <Sprav_mfo>/Sprav_mfo>
+
+    #Путь до ФСФМ
+    <Fsfm1></Fsfm1>
+    <Fsfm2></Fsfm2>
+
+</Inifile>
